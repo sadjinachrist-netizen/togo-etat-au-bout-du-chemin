@@ -1,0 +1,428 @@
+indicateur,annee,value,région
+CHU,2015,3,Togo
+CHU,2016,3,Togo
+CHU,2017,3,Togo
+CHU,2018,3,Togo
+CHU,2019,3,Togo
+CHU,2020,3,Togo
+CHU,2021,3,Togo
+CHU,2015,2,Lomé Commune
+CHU,2016,2,Lomé Commune
+CHU,2017,2,Lomé Commune
+CHU,2018,2,Lomé Commune
+CHU,2019,2,Lomé Commune
+CHU,2020,2,Lomé Commune
+CHU,2021,2,Lomé Commune
+CHU,2015,0,Maritime
+CHU,2016,0,Maritime
+CHU,2017,0,Maritime
+CHU,2018,0,Maritime
+CHU,2019,0,Maritime
+CHU,2020,0,Maritime
+CHU,2021,0,Maritime
+CHU,2015,0,Plateaux
+CHU,2016,0,Plateaux
+CHU,2017,0,Plateaux
+CHU,2018,0,Plateaux
+CHU,2019,0,Plateaux
+CHU,2020,0,Plateaux
+CHU,2021,0,Plateaux
+CHU,2015,0,Centrale
+CHU,2016,0,Centrale
+CHU,2017,0,Centrale
+CHU,2018,0,Centrale
+CHU,2019,0,Centrale
+CHU,2020,0,Centrale
+CHU,2021,0,Centrale
+CHU,2015,1,Kara
+CHU,2016,1,Kara
+CHU,2017,1,Kara
+CHU,2018,1,Kara
+CHU,2019,1,Kara
+CHU,2020,1,Kara
+CHU,2021,1,Kara
+CHU,2015,0,Savanes
+CHU,2016,0,Savanes
+CHU,2017,0,Savanes
+CHU,2018,0,Savanes
+CHU,2019,0,Savanes
+CHU,2020,0,Savanes
+CHU,2021,0,Savanes
+CHR,2015,6,Togo
+CHR,2016,6,Togo
+CHR,2017,6,Togo
+CHR,2018,6,Togo
+CHR,2019,6,Togo
+CHR,2020,6,Togo
+CHR,2021,6,Togo
+CHR,2015,1,Lomé Commune
+CHR,2016,1,Lomé Commune
+CHR,2017,1,Lomé Commune
+CHR,2018,1,Lomé Commune
+CHR,2019,1,Lomé Commune
+CHR,2020,1,Lomé Commune
+CHR,2021,1,Lomé Commune
+CHR,2015,1,Maritime
+CHR,2016,1,Maritime
+CHR,2017,1,Maritime
+CHR,2018,1,Maritime
+CHR,2019,1,Maritime
+CHR,2020,1,Maritime
+CHR,2021,1,Maritime
+CHR,2015,1,Plateaux
+CHR,2016,1,Plateaux
+CHR,2017,1,Plateaux
+CHR,2018,1,Plateaux
+CHR,2019,1,Plateaux
+CHR,2020,1,Plateaux
+CHR,2021,1,Plateaux
+CHR,2015,1,Centrale
+CHR,2016,1,Centrale
+CHR,2017,1,Centrale
+CHR,2018,1,Centrale
+CHR,2019,1,Centrale
+CHR,2020,1,Centrale
+CHR,2021,1,Centrale
+CHR,2015,1,Kara
+CHR,2016,1,Kara
+CHR,2017,1,Kara
+CHR,2018,1,Kara
+CHR,2019,1,Kara
+CHR,2020,1,Kara
+CHR,2021,1,Kara
+CHR,2015,1,Savanes
+CHR,2016,1,Savanes
+CHR,2017,1,Savanes
+CHR,2018,1,Savanes
+CHR,2019,1,Savanes
+CHR,2020,1,Savanes
+CHR,2021,1,Savanes
+Hôpital spécialisé,2015,12,Togo
+Hôpital spécialisé,2016,4,Togo
+Hôpital spécialisé,2017,4,Togo
+Hôpital spécialisé,2018,4,Togo
+Hôpital spécialisé,2019,4,Togo
+Hôpital spécialisé,2020,4,Togo
+Hôpital spécialisé,2021,3,Togo
+Hôpital spécialisé,2015,0,Lomé Commune
+Hôpital spécialisé,2016,1,Lomé Commune
+Hôpital spécialisé,2017,1,Lomé Commune
+Hôpital spécialisé,2018,1,Lomé Commune
+Hôpital spécialisé,2019,1,Lomé Commune
+Hôpital spécialisé,2020,1,Lomé Commune
+Hôpital spécialisé,2021,1,Lomé Commune
+Hôpital spécialisé,2015,4,Maritime
+Hôpital spécialisé,2016,1,Maritime
+Hôpital spécialisé,2017,1,Maritime
+Hôpital spécialisé,2018,1,Maritime
+Hôpital spécialisé,2019,1,Maritime
+Hôpital spécialisé,2020,1,Maritime
+Hôpital spécialisé,2021,0,Maritime
+Hôpital spécialisé,2015,6,Plateaux
+Hôpital spécialisé,2016,1,Plateaux
+Hôpital spécialisé,2017,1,Plateaux
+Hôpital spécialisé,2018,1,Plateaux
+Hôpital spécialisé,2019,1,Plateaux
+Hôpital spécialisé,2020,1,Plateaux
+Hôpital spécialisé,2021,1,Plateaux
+Hôpital spécialisé,2015,1,Centrale
+Hôpital spécialisé,2016,0,Centrale
+Hôpital spécialisé,2017,0,Centrale
+Hôpital spécialisé,2018,0,Centrale
+Hôpital spécialisé,2019,0,Centrale
+Hôpital spécialisé,2020,0,Centrale
+Hôpital spécialisé,2021,0,Centrale
+Hôpital spécialisé,2015,0,Kara
+Hôpital spécialisé,2016,0,Kara
+Hôpital spécialisé,2017,0,Kara
+Hôpital spécialisé,2018,0,Kara
+Hôpital spécialisé,2019,0,Kara
+Hôpital spécialisé,2020,0,Kara
+Hôpital spécialisé,2021,0,Kara
+Hôpital spécialisé,2015,1,Savanes
+Hôpital spécialisé,2016,1,Savanes
+Hôpital spécialisé,2017,1,Savanes
+Hôpital spécialisé,2018,1,Savanes
+Hôpital spécialisé,2019,1,Savanes
+Hôpital spécialisé,2020,1,Savanes
+Hôpital spécialisé,2021,1,Savanes
+Hôpital de type 1,2015,19,Togo
+Hôpital de type 1,2016,64,Togo
+Hôpital de type 1,2017,72,Togo
+Hôpital de type 1,2018,77,Togo
+Hôpital de type 1,2019,73,Togo
+Hôpital de type 1,2020,75,Togo
+Hôpital de type 1,2021,47,Togo
+Hôpital de type 1,2015,4,Lomé Commune
+Hôpital de type 1,2016,35,Lomé Commune
+Hôpital de type 1,2017,42,Lomé Commune
+Hôpital de type 1,2018,42,Lomé Commune
+Hôpital de type 1,2019,39,Lomé Commune
+Hôpital de type 1,2020,49,Lomé Commune
+Hôpital de type 1,2021,24,Lomé Commune
+Hôpital de type 1,2015,3,Maritime
+Hôpital de type 1,2016,9,Maritime
+Hôpital de type 1,2017,11,Maritime
+Hôpital de type 1,2018,15,Maritime
+Hôpital de type 1,2019,15,Maritime
+Hôpital de type 1,2020,5,Maritime
+Hôpital de type 1,2021,5,Maritime
+Hôpital de type 1,2015,4,Plateaux
+Hôpital de type 1,2016,6,Plateaux
+Hôpital de type 1,2017,5,Plateaux
+Hôpital de type 1,2018,7,Plateaux
+Hôpital de type 1,2019,7,Plateaux
+Hôpital de type 1,2020,7,Plateaux
+Hôpital de type 1,2021,7,Plateaux
+Hôpital de type 1,2015,1,Centrale
+Hôpital de type 1,2016,3,Centrale
+Hôpital de type 1,2017,3,Centrale
+Hôpital de type 1,2018,3,Centrale
+Hôpital de type 1,2019,3,Centrale
+Hôpital de type 1,2020,3,Centrale
+Hôpital de type 1,2021,3,Centrale
+Hôpital de type 1,2015,4,Kara
+Hôpital de type 1,2016,5,Kara
+Hôpital de type 1,2017,5,Kara
+Hôpital de type 1,2018,5,Kara
+Hôpital de type 1,2019,5,Kara
+Hôpital de type 1,2020,5,Kara
+Hôpital de type 1,2021,4,Kara
+Hôpital de type 1,2015,3,Savanes
+Hôpital de type 1,2016,6,Savanes
+Hôpital de type 1,2017,6,Savanes
+Hôpital de type 1,2018,5,Savanes
+Hôpital de type 1,2019,6,Savanes
+Hôpital de type 1,2020,6,Savanes
+Hôpital de type 1,2021,4,Savanes
+Hôpital de type 2,2015,15,Togo
+Hôpital de type 2,2016,26,Togo
+Hôpital de type 2,2017,29,Togo
+Hôpital de type 2,2018,28,Togo
+Hôpital de type 2,2019,27,Togo
+Hôpital de type 2,2020,27,Togo
+Hôpital de type 2,2021,47,Togo
+Hôpital de type 2,2015,2,Lomé Commune
+Hôpital de type 2,2016,5,Lomé Commune
+Hôpital de type 2,2017,6,Lomé Commune
+Hôpital de type 2,2018,6,Lomé Commune
+Hôpital de type 2,2019,5,Lomé Commune
+Hôpital de type 2,2020,5,Lomé Commune
+Hôpital de type 2,2021,24,Lomé Commune
+Hôpital de type 2,2015,2,Maritime
+Hôpital de type 2,2016,3,Maritime
+Hôpital de type 2,2017,3,Maritime
+Hôpital de type 2,2018,3,Maritime
+Hôpital de type 2,2019,3,Maritime
+Hôpital de type 2,2020,3,Maritime
+Hôpital de type 2,2021,5,Maritime
+Hôpital de type 2,2015,5,Plateaux
+Hôpital de type 2,2016,11,Plateaux
+Hôpital de type 2,2017,12,Plateaux
+Hôpital de type 2,2018,11,Plateaux
+Hôpital de type 2,2019,11,Plateaux
+Hôpital de type 2,2020,11,Plateaux
+Hôpital de type 2,2021,7,Plateaux
+Hôpital de type 2,2015,2,Centrale
+Hôpital de type 2,2016,2,Centrale
+Hôpital de type 2,2017,2,Centrale
+Hôpital de type 2,2018,2,Centrale
+Hôpital de type 2,2019,2,Centrale
+Hôpital de type 2,2020,2,Centrale
+Hôpital de type 2,2021,3,Centrale
+Hôpital de type 2,2015,3,Kara
+Hôpital de type 2,2016,3,Kara
+Hôpital de type 2,2017,3,Kara
+Hôpital de type 2,2018,3,Kara
+Hôpital de type 2,2019,3,Kara
+Hôpital de type 2,2020,3,Kara
+Hôpital de type 2,2021,4,Kara
+Hôpital de type 2,2015,1,Savanes
+Hôpital de type 2,2016,2,Savanes
+Hôpital de type 2,2017,3,Savanes
+Hôpital de type 2,2018,3,Savanes
+Hôpital de type 2,2019,3,Savanes
+Hôpital de type 2,2020,3,Savanes
+Hôpital de type 2,2021,4,Savanes
+Polyclinique,2015,10,Togo
+Polyclinique,2015,1,Lomé Commune
+Polyclinique,2015,3,Maritime
+Polyclinique,2015,3,Plateaux
+Polyclinique,2015,1,Centrale
+Polyclinique,2015,1,Kara
+Polyclinique,2015,1,Savanes
+USP de type 1,2015,552,Togo
+USP de type 1,2016,687,Togo
+USP de type 1,2017,744,Togo
+USP de type 1,2018,759,Togo
+USP de type 1,2019,749,Togo
+USP de type 1,2020,749,Togo
+USP de type 1,2021,797,Togo
+USP de type 1,2015,13,Lomé Commune
+USP de type 1,2016,97,Lomé Commune
+USP de type 1,2017,111,Lomé Commune
+USP de type 1,2018,129,Lomé Commune
+USP de type 1,2019,119,Lomé Commune
+USP de type 1,2020,126,Lomé Commune
+USP de type 1,2021,159,Lomé Commune
+USP de type 1,2015,116,Maritime
+USP de type 1,2016,147,Maritime
+USP de type 1,2017,150,Maritime
+USP de type 1,2018,147,Maritime
+USP de type 1,2019,150,Maritime
+USP de type 1,2020,143,Maritime
+USP de type 1,2021,149,Maritime
+USP de type 1,2015,168,Plateaux
+USP de type 1,2016,179,Plateaux
+USP de type 1,2017,194,Plateaux
+USP de type 1,2018,192,Plateaux
+USP de type 1,2019,188,Plateaux
+USP de type 1,2020,188,Plateaux
+USP de type 1,2021,198,Plateaux
+USP de type 1,2015,81,Centrale
+USP de type 1,2016,91,Centrale
+USP de type 1,2017,102,Centrale
+USP de type 1,2018,99,Centrale
+USP de type 1,2019,100,Centrale
+USP de type 1,2020,100,Centrale
+USP de type 1,2021,94,Centrale
+USP de type 1,2015,105,Kara
+USP de type 1,2016,100,Kara
+USP de type 1,2017,113,Kara
+USP de type 1,2018,115,Kara
+USP de type 1,2019,114,Kara
+USP de type 1,2020,114,Kara
+USP de type 1,2021,113,Kara
+USP de type 1,2015,69,Savanes
+USP de type 1,2016,73,Savanes
+USP de type 1,2017,74,Savanes
+USP de type 1,2018,77,Savanes
+USP de type 1,2019,78,Savanes
+USP de type 1,2020,78,Savanes
+USP de type 1,2021,84,Savanes
+USP de type 2,2015,189,Togo
+USP de type 2,2016,253,Togo
+USP de type 2,2017,303,Togo
+USP de type 2,2018,331,Togo
+USP de type 2,2019,316,Togo
+USP de type 2,2020,314,Togo
+USP de type 2,2021,371,Togo
+USP de type 2,2015,48,Lomé Commune
+USP de type 2,2016,58,Lomé Commune
+USP de type 2,2017,74,Lomé Commune
+USP de type 2,2018,93,Lomé Commune
+USP de type 2,2019,83,Lomé Commune
+USP de type 2,2020,122,Lomé Commune
+USP de type 2,2021,201,Lomé Commune
+USP de type 2,2015,49,Maritime
+USP de type 2,2016,68,Maritime
+USP de type 2,2017,84,Maritime
+USP de type 2,2018,93,Maritime
+USP de type 2,2019,90,Maritime
+USP de type 2,2020,51,Maritime
+USP de type 2,2021,34,Maritime
+USP de type 2,2015,29,Plateaux
+USP de type 2,2016,55,Plateaux
+USP de type 2,2017,69,Plateaux
+USP de type 2,2018,70,Plateaux
+USP de type 2,2019,66,Plateaux
+USP de type 2,2020,66,Plateaux
+USP de type 2,2021,55,Plateaux
+USP de type 2,2015,19,Centrale
+USP de type 2,2016,20,Centrale
+USP de type 2,2017,22,Centrale
+USP de type 2,2018,24,Centrale
+USP de type 2,2019,25,Centrale
+USP de type 2,2020,25,Centrale
+USP de type 2,2021,26,Centrale
+USP de type 2,2015,26,Kara
+USP de type 2,2016,31,Kara
+USP de type 2,2017,33,Kara
+USP de type 2,2018,31,Kara
+USP de type 2,2019,31,Kara
+USP de type 2,2020,31,Kara
+USP de type 2,2021,36,Kara
+USP de type 2,2015,18,Savanes
+USP de type 2,2016,21,Savanes
+USP de type 2,2017,21,Savanes
+USP de type 2,2018,20,Savanes
+USP de type 2,2019,19,Savanes
+USP de type 2,2020,19,Savanes
+USP de type 2,2021,19,Savanes
+Clinique,2015,86,Togo
+Clinique,2015,61,Lomé Commune
+Clinique,2015,13,Maritime
+Clinique,2015,3,Plateaux
+Clinique,2015,6,Centrale
+Clinique,2015,2,Kara
+Clinique,2015,1,Savanes
+Cabinet,2015,237,Togo
+Cabinet,2015,193,Lomé Commune
+Cabinet,2015,13,Maritime
+Cabinet,2015,19,Plateaux
+Cabinet,2015,4,Centrale
+Cabinet,2015,5,Kara
+Cabinet,2015,3,Savanes
+INFIRMERIE,2015,33,Togo
+INFIRMERIE,2017,54,Togo
+INFIRMERIE,2018,52,Togo
+INFIRMERIE,2019,48,Togo
+INFIRMERIE,2020,48,Togo
+INFIRMERIE,2021,28,Togo
+INFIRMERIE,2015,17,Lomé Commune
+INFIRMERIE,2017,26,Lomé Commune
+INFIRMERIE,2018,26,Lomé Commune
+INFIRMERIE,2019,22,Lomé Commune
+INFIRMERIE,2020,22,Lomé Commune
+INFIRMERIE,2021,3,Lomé Commune
+INFIRMERIE,2015,0,Maritime
+INFIRMERIE,2017,3,Maritime
+INFIRMERIE,2018,1,Maritime
+INFIRMERIE,2019,1,Maritime
+INFIRMERIE,2020,1,Maritime
+INFIRMERIE,2021,1,Maritime
+INFIRMERIE,2015,1,Plateaux
+INFIRMERIE,2017,5,Plateaux
+INFIRMERIE,2018,4,Plateaux
+INFIRMERIE,2019,4,Plateaux
+INFIRMERIE,2020,4,Plateaux
+INFIRMERIE,2021,5,Plateaux
+INFIRMERIE,2015,6,Centrale
+INFIRMERIE,2017,6,Centrale
+INFIRMERIE,2018,7,Centrale
+INFIRMERIE,2019,7,Centrale
+INFIRMERIE,2020,7,Centrale
+INFIRMERIE,2021,6,Centrale
+INFIRMERIE,2015,0,Kara
+INFIRMERIE,2017,8,Kara
+INFIRMERIE,2018,8,Kara
+INFIRMERIE,2019,8,Kara
+INFIRMERIE,2020,8,Kara
+INFIRMERIE,2021,9,Kara
+INFIRMERIE,2015,9,Savanes
+INFIRMERIE,2017,6,Savanes
+INFIRMERIE,2018,6,Savanes
+INFIRMERIE,2019,6,Savanes
+INFIRMERIE,2020,6,Savanes
+INFIRMERIE,2021,4,Savanes
+PMI,2015,12,Togo
+PMI,2015,1,Lomé Commune
+PMI,2015,0,Maritime
+PMI,2015,8,Plateaux
+PMI,2015,1,Centrale
+PMI,2015,2,Kara
+PMI,2015,0,Savanes
+Poste de secours,2015,35,Togo
+Poste de secours,2015,28,Lomé Commune
+Poste de secours,2015,3,Maritime
+Poste de secours,2015,1,Plateaux
+Poste de secours,2015,0,Centrale
+Poste de secours,2015,3,Kara
+Poste de secours,2015,0,Savanes
+Case de santé,2015,77,Togo
+Case de santé,2015,0,Lomé Commune
+Case de santé,2015,19,Maritime
+Case de santé,2015,51,Plateaux
+Case de santé,2015,5,Centrale
+Case de santé,2015,0,Kara
+Case de santé,2015,2,Savanes

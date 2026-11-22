@@ -1,0 +1,133 @@
+zone_key,annee,abonnes_bt,taux_acces,libelle,region,nb_prefectures
+AGOENYIVE,2018,47615.0,65.96,Agoè-Nyivé,Grand Lomé,1
+AGOENYIVE,2019,79815.0,106.52,Agoè-Nyivé,Grand Lomé,1
+AGOENYIVE,2020,81703.0,94.49,Agoè-Nyivé,Grand Lomé,1
+AGOENYIVE,2021,,95.63,Agoè-Nyivé,Grand Lomé,1
+AGOU,2018,1641.0,13.03,Agou,Plateaux,1
+AGOU,2019,1825.0,14.15,Agou,Plateaux,1
+AGOU,2020,2056.0,15.67,Agou,Plateaux,1
+AGOU,2021,,20.55,Agou,Plateaux,1
+AKEBOU,2018,241.0,2.61,Akébou,Plateaux,1
+AKEBOU,2019,233.0,2.46,Akébou,Plateaux,1
+AKEBOU,2020,284.0,2.95,Akébou,Plateaux,1
+AKEBOU,2021,364.0,3.74,Akébou,Plateaux,1
+AMOU,2018,1968.0,12.62,Amou,Plateaux,1
+AMOU,2019,2601.0,16.29,Amou,Plateaux,1
+AMOU,2020,2706.0,16.66,Amou,Plateaux,1
+AMOU,2021,,19.11,Amou,Plateaux,1
+ASSOLI,2018,1996.0,26.13,Assoli,Kara,1
+ASSOLI,2019,2121.0,27.12,Assoli,Kara,1
+ASSOLI,2020,2295.0,28.83,Assoli,Kara,1
+ASSOLI,2021,,30.77,Assoli,Kara,1
+AVE,2018,1288.0,9.26,Avé,Maritime,1
+AVE,2019,2543.0,17.85,Avé,Maritime,1
+AVE,2020,3262.0,22.49,Avé,Maritime,1
+AVE,2021,,32.57,Avé,Maritime,1
+BASSAR,2018,5046.0,28.42,Bassar,Kara,1
+BASSAR,2019,5743.0,31.58,Bassar,Kara,1
+BASSAR,2020,6102.0,32.97,Bassar,Kara,1
+BASSAR,2021,,36.37,Bassar,Kara,1
+BINAH,2018,1819.0,17.5,Binah,Kara,1
+BINAH,2019,1884.0,17.71,Binah,Kara,1
+BINAH,2020,2318.0,21.4,Binah,Kara,1
+BINAH,2021,,20.63,Binah,Kara,1
+BLITTA,2018,1658.0,,Blitta,Centrale,1
+BLITTA,2019,2103.0,10.06,Blitta,Centrale,1
+BLITTA,2020,2439.0,11.46,Blitta,Centrale,1
+BLITTA,2021,,13.01,Blitta,Centrale,1
+CINKASSE,2018,4419.0,37.91,Cinkassé,Savanes,1
+CINKASSE,2019,4862.0,40.73,Cinkassé,Savanes,1
+CINKASSE,2020,5440.0,44.77,Cinkassé,Savanes,1
+CINKASSE,2021,,49.33,Cinkassé,Savanes,1
+DANKPEN,2018,568.0,2.93,Dankpen,Kara,1
+DANKPEN,2019,900.0,4.53,Dankpen,Kara,1
+DANKPEN,2020,1178.0,5.83,Dankpen,Kara,1
+DANKPEN,2021,,6.26,Dankpen,Kara,1
+DANYI,2018,931.0,16.2,Danyi,Plateaux,1
+DANYI,2019,944.0,16.04,Danyi,Plateaux,1
+DANYI,2020,1001.0,16.71,Danyi,Plateaux,1
+DANYI,2021,,22.32,Danyi,Plateaux,1
+DOUFELGOU,2018,2622.0,22.48,Doufelgou,Kara,1
+DOUFELGOU,2019,3083.0,25.81,Doufelgou,Kara,1
+DOUFELGOU,2020,3341.0,27.48,Doufelgou,Kara,1
+DOUFELGOU,2021,,29.93,Doufelgou,Kara,1
+EST MONO,2018,734.0,4.06,Est-Mono,Plateaux,1
+EST MONO,2019,766.0,4.14,Est-Mono,Plateaux,1
+EST MONO,2020,714.0,3.79,Est-Mono,Plateaux,1
+EST MONO,2021,,5.26,Est-Mono,Plateaux,1
+HAHO + MOYEN MONO,2018,5146.0,10.66,Haho + Moyen-Mono,Plateaux,2
+HAHO + MOYEN MONO,2019,6652.0,13.46,Haho + Moyen-Mono,Plateaux,2
+HAHO + MOYEN MONO,2020,7204.0,14.32,Haho + Moyen-Mono,Plateaux,2
+HAHO + MOYEN MONO,2021,,18.68,Haho + Moyen-Mono,Plateaux,2
+KERAN,2018,868.0,6.22,Kéran,Kara,1
+KERAN,2019,1030.0,7.21,Kéran,Kara,1
+KERAN,2020,1191.0,8.19,Kéran,Kara,1
+KERAN,2021,,9.54,Kéran,Kara,1
+KLOTO,2018,12184.0,62.31,Kloto,Plateaux,1
+KLOTO,2019,14586.0,73.33,Kloto,Plateaux,1
+KLOTO,2020,15940.0,79.27,Kloto,Plateaux,1
+KLOTO,2021,,86.25,Kloto,Plateaux,1
+KOZAH,2018,18120.0,56.44,Kozah,Kara,1
+KOZAH,2019,21412.0,65.46,Kozah,Kara,1
+KOZAH,2020,23363.0,70.53,Kozah,Kara,1
+KOZAH,2021,,76.57,Kozah,Kara,1
+KPELE,2018,1223.0,10.91,Kpélé,Plateaux,1
+KPELE,2019,1141.0,9.94,Kpélé,Plateaux,1
+KPELE,2020,1115.0,9.55,Kpélé,Plateaux,1
+KPELE,2021,,9.31,Kpélé,Plateaux,1
+KPENDJAL + KPENDJAL OUEST,2018,484.0,2.1,Kpendjal + Kpendjal-Ouest,Savanes,2
+KPENDJAL + KPENDJAL OUEST,2019,442.0,1.88,Kpendjal + Kpendjal-Ouest,Savanes,2
+KPENDJAL + KPENDJAL OUEST,2020,408.0,1.83,Kpendjal + Kpendjal-Ouest,Savanes,2
+KPENDJAL + KPENDJAL OUEST,2021,426.0,1.86,Kpendjal + Kpendjal-Ouest,Savanes,2
+LACS + BAS-MONO,2018,13757.0,35.53,Lacs + Bas-Mono,Maritime,2
+LACS + BAS-MONO,2019,16468.0,41.54,Lacs + Bas-Mono,Maritime,2
+LACS + BAS-MONO,2020,18294.0,45.34,Lacs + Bas-Mono,Maritime,2
+LACS + BAS-MONO,2021,,50.68,Lacs + Bas-Mono,Maritime,2
+LOME COMMUNE + GOLFE,2018,231909.0,98.37,Golfe,Grand Lomé,1
+LOME COMMUNE + GOLFE,2019,231909.0,94.77,Golfe,Grand Lomé,1
+LOME COMMUNE + GOLFE,2020,253194.0,96.7,Golfe,Grand Lomé,1
+LOME COMMUNE + GOLFE,2021,,98.55,Golfe,Grand Lomé,1
+OGOU + ANIE,2018,12422.0,27.87,Ogou + Anié,Plateaux,2
+OGOU + ANIE,2019,15065.0,33.29,Ogou + Anié,Plateaux,2
+OGOU + ANIE,2020,16545.0,36.23,Ogou + Anié,Plateaux,2
+OGOU + ANIE,2021,,41.35,Ogou + Anié,Plateaux,2
+OTI + OTI SUD,2018,4481.0,15.85,Oti + Oti-Sud,Savanes,2
+OTI + OTI SUD,2019,5527.0,19.1,Oti + Oti-Sud,Savanes,2
+OTI + OTI SUD,2020,6282.0,21.33,Oti + Oti-Sud,Savanes,2
+OTI + OTI SUD,2021,,23.73,Oti + Oti-Sud,Savanes,2
+SOTOUBOUA + PLAINE DE MO,2018,4317.0,18.37,Sotouboua + Mô,Centrale,2
+SOTOUBOUA + PLAINE DE MO,2019,5169.0,21.48,Sotouboua + Mô,Centrale,2
+SOTOUBOUA + PLAINE DE MO,2020,5655.0,23.09,Sotouboua + Mô,Centrale,2
+SOTOUBOUA + PLAINE DE MO,2021,,25.97,Sotouboua + Mô,Centrale,2
+TANDJOARE,2018,428.0,2.45,Tandjoaré,Savanes,1
+TANDJOARE,2019,391.0,2.18,Tandjoaré,Savanes,1
+TANDJOARE,2020,367.0,2.01,Tandjoaré,Savanes,1
+TANDJOARE,2021,427.0,2.29,Tandjoaré,Savanes,1
+TCHAMBA,2018,3583.0,18.34,Tchamba,Centrale,1
+TCHAMBA,2019,4434.0,22.17,Tchamba,Centrale,1
+TCHAMBA,2020,5766.0,28.33,Tchamba,Centrale,1
+TCHAMBA,2021,,34.45,Tchamba,Centrale,1
+TCHAOUDJO,2018,12539.0,48.17,Tchaoudjo,Centrale,1
+TCHAOUDJO,2019,14346.0,54.36,Tchaoudjo,Centrale,1
+TCHAOUDJO,2020,15444.0,58.08,Tchaoudjo,Centrale,1
+TCHAOUDJO,2021,,64.95,Tchaoudjo,Centrale,1
+TONE,2018,9636.0,23.79,Tône,Savanes,1
+TONE,2019,11162.0,27.06,Tône,Savanes,1
+TONE,2020,12396.0,29.7,Tône,Savanes,1
+TONE,2021,,33.45,Tône,Savanes,1
+VO,2018,6830.0,21.92,Vo,Maritime,1
+VO,2019,8043.0,25.21,Vo,Maritime,1
+VO,2020,9520.0,29.31,Vo,Maritime,1
+VO,2021,,37.58,Vo,Maritime,1
+WAWA,2018,1666.0,11.12,Wawa,Plateaux,1
+WAWA,2019,1707.0,11.13,Wawa,Plateaux,1
+WAWA,2020,1834.0,11.75,Wawa,Plateaux,1
+WAWA,2021,,12.98,Wawa,Plateaux,1
+YOTO,2018,7068.0,28.77,Yoto,Maritime,1
+YOTO,2019,8908.0,35.42,Yoto,Maritime,1
+YOTO,2020,10571.0,41.29,Yoto,Maritime,1
+YOTO,2021,,62.4,Yoto,Maritime,1
+ZIO,2018,19028.0,58.51,Zio,Maritime,1
+ZIO,2019,24042.0,73.78,Zio,Maritime,1
+ZIO,2020,28561.0,88.01,Zio,Maritime,1
+ZIO,2021,,106.84,Zio,Maritime,1

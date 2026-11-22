@@ -1,0 +1,364 @@
+[
+  {
+    "nom": "Recensement Général de la Population et de l'Habitat (RGPH-5, 2022)",
+    "page": "https://opendata.gouv.tg/datasets/donnee-ouverte-de-recensement-general-de-la-population-et-de-lhabitat-rgph",
+    "producteur": "Institut National de la Statistique et des Études Économiques et Démographiques",
+    "usage": "Population 2022 par préfecture — dénominateur de tous les ratios par habitant.",
+    "fichiers": [
+      {
+        "role": "données",
+        "format": "csv",
+        "fichier": "population_rgph5_2022.csv",
+        "url": "https://opendata.gouv.tg/s/resources/donnee-ouverte-de-recensement-general-de-la-population-et-de-lhabitat-rgph/20241227-082722/observationdata-kwwolwb.csv"
+      }
+    ]
+  },
+  {
+    "nom": "Population par subdivision administrative (effectifs 2010)",
+    "page": "https://opendata.gouv.tg/datasets/donnees-ouvertes-sur-la-population-par-subdivision-administrative-du-togo",
+    "producteur": "Institut National de la Statistique et des Études Économiques et Démographiques",
+    "fichiers": [
+      {
+        "role": "données",
+        "format": "csv",
+        "fichier": "population_2010.csv",
+        "url": "https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-la-population-par-subdivision-administrative-du-togo/20241226-182338/observationdata-sapxctg.csv"
+      }
+    ],
+    "remarque": "Jeu intitulé RGPH-5 2022 sur le portail, mais dont les effectifs correspondent au recensement de 2010 (vérifié par recoupement avec le total national publié). Utilisé ici comme base 2010 pour mesurer la croissance, et non comme population de référence."
+  },
+  {
+    "nom": "Taux d'accès à l'électricité par préfecture",
+    "page": "https://opendata.gouv.tg/datasets/donnees-ouvertes-sur-le-taux-dacces-a-lelectricite-par-prefecture-au-togo",
+    "producteur": "Institut National de la Statistique et des Études Économiques et Démographiques",
+    "fichiers": [
+      {
+        "role": "données",
+        "format": "csv",
+        "fichier": "electricite_taux_prefecture.csv",
+        "url": "https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-le-taux-dacces-a-lelectricite-par-prefecture/20241226-145522/observationdata-puncgpd.csv"
+      }
+    ]
+  },
+  {
+    "nom": "Agences de la CEET (électricité)",
+    "page": "https://opendata.gouv.tg/datasets/donnees-ouvertes-sur-les-agences-de-la-ceet",
+    "producteur": "Ministère des Mines et des Ressources Énergétiques",
+    "fichiers": [
+      {
+        "role": "données",
+        "format": "csv",
+        "fichier": "agences_ceet.csv",
+        "url": "https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-agences-de-la-ceet/20241223-110618/agences-ceet.csv"
+      },
+      {
+        "role": "dictionnaire de champs",
+        "format": "csv",
+        "fichier": null,
+        "url": "https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-agences-de-la-ceet/20241223-110716/file-agences-ceet-23-12-2024-11-06-42.csv"
+      }
+    ]
+  },
+  {
+    "nom": "Agences de la Togolaise des Eaux",
+    "page": "https://opendata.gouv.tg/datasets/donnees-ouvertes-sur-les-agences-togolaise-des-eaux-tde",
+    "producteur": "Ministère de l’Eau et de l’Assainissement ",
+    "fichiers": [
+      {
+        "role": "données",
+        "format": "csv",
+        "fichier": "agences_tde.csv",
+        "url": "https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-agences-togolaise-des-eaux-tde/20241219-174958/file-agences-togolaise-des-eaux-tde-19-12-2024-17-48-23.csv"
+      },
+      {
+        "role": "dictionnaire de champs",
+        "format": "csv",
+        "fichier": null,
+        "url": "https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-agences-togolaise-des-eaux-tde/20241219-174740/agences-togolaise-des-eaux-tde-.csv"
+      }
+    ]
+  },
+  {
+    "nom": "Postes d'Eau Autonomes (PEA)",
+    "page": "https://opendata.gouv.tg/datasets/donnees-ouvertes-sur-les-postes-deau-autonomes-pea-au-togo",
+    "producteur": "Ministère de l’Eau et de l’Assainissement ",
+    "fichiers": [
+      {
+        "role": "données",
+        "format": "csv",
+        "fichier": "eau_pea.csv",
+        "url": "https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-postes-deau-autonomes-pea-au-togo/20241223-105106/file-postes-deau-autonomes-pea-23-12-2024-10-50-37.csv"
+      },
+      {
+        "role": "dictionnaire de champs",
+        "format": "csv",
+        "fichier": null,
+        "url": "https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-postes-deau-autonomes-pea-au-togo/20241223-105002/postes-deau-autonomes-pea-.csv"
+      }
+    ]
+  },
+  {
+    "nom": "Pompes à Motricité Humaine (PMH)",
+    "page": "https://opendata.gouv.tg/datasets/donnees-ouvertes-sur-les-pompes-a-motricite-humaine-pmh-au-togo",
+    "producteur": "Ministère de l’Eau et de l’Assainissement ",
+    "fichiers": [
+      {
+        "role": "données",
+        "format": "csv",
+        "fichier": "eau_pmh.csv",
+        "url": "https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-pompes-a-motricite-humaine-pmh-au-togo/20241223-104710/file-pompes-a-motricite-humaine-pmh-23-12-2024-10-44-36.csv"
+      },
+      {
+        "role": "dictionnaire de champs",
+        "format": "csv",
+        "fichier": null,
+        "url": "https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-pompes-a-motricite-humaine-pmh-au-togo/20241223-104357/pompes-a-motricite-humaine-pmh-.csv"
+      }
+    ]
+  },
+  {
+    "nom": "Formations sanitaires par type et par région",
+    "page": "https://opendata.gouv.tg/datasets/donnees-ouvertes-sur-les-formations-sanitaires-par-type-et-par-region-au-togo",
+    "producteur": "Institut National de la Statistique et des Études Économiques et Démographiques",
+    "fichiers": [
+      {
+        "role": "données",
+        "format": "csv",
+        "fichier": "sante_formations.csv",
+        "url": "https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-formations-sanitaires-par-type-et-par-region-au-togo/20250103-170630/observationdata-mtdaogb.csv"
+      }
+    ]
+  },
+  {
+    "nom": "Densité démographique des infrastructures sanitaires",
+    "page": "https://opendata.gouv.tg/datasets/donnees-ouvertes-sur-la-densite-demographique-des-infrastructures-sanitaires-au-togo",
+    "producteur": "Institut National de la Statistique et des Études Économiques et Démographiques",
+    "fichiers": [
+      {
+        "role": "données",
+        "format": "csv",
+        "fichier": "sante_densite.csv",
+        "url": "https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-la-densite-demographique-des-infrastructures-sanitaires-au-togo/20250102-182640/observationdata-ghqqsde.csv"
+      }
+    ]
+  },
+  {
+    "nom": "Taux de pauvreté et revenus",
+    "page": "https://opendata.gouv.tg/datasets/donnees-ouvertes-sur-le-taux-de-pauvrete-et-revenus-au-togo",
+    "producteur": "Institut National de la Statistique et des Études Économiques et Démographiques",
+    "fichiers": [
+      {
+        "role": "données",
+        "format": "csv",
+        "fichier": "pauvrete.csv",
+        "url": "https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-pauvrete-et-revenus-au-togo/20241226-160154/observationdata-lknstac.csv"
+      }
+    ]
+  },
+  {
+    "nom": "Taux net de scolarisation au primaire par région",
+    "page": "https://opendata.gouv.tg/datasets/donnees-ouvertes-sur-le-taux-net-de-scolarisation-au-primaire-par-region-au-togo",
+    "producteur": "Institut National de la Statistique et des Études Économiques et Démographiques",
+    "fichiers": [
+      {
+        "role": "données",
+        "format": "csv",
+        "fichier": "scolarisation_primaire.csv",
+        "url": "https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-le-taux-net-de-scolarisation-au-primaire-par-region-au-togo/20250109-182944/observationdata-vzztmjc.csv"
+      }
+    ]
+  },
+  {
+    "nom": "Entreprises auto-écoles",
+    "page": "https://opendata.gouv.tg/datasets/donnees-ouvertes-sur-les-entreprises-auto-ecoles-au-togo",
+    "producteur": "Ministère des Transports",
+    "fichiers": [
+      {
+        "role": "données",
+        "format": "csv",
+        "fichier": "auto_ecoles.csv",
+        "url": "https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-entreprises-auto-ecoles-au-togo/20250102-162842/file-entreprises-auto-ecoles-02-01-2025-16-28-05.csv"
+      },
+      {
+        "role": "dictionnaire de champs",
+        "format": "csv",
+        "fichier": null,
+        "url": "https://opendata.gouv.tg/s/resources/donnees-ouvertes-entreprises-auto-ecoles/20241218-100922/entreprises-auto-ecoles.csv"
+      }
+    ]
+  },
+  {
+    "nom": "Routes classées (tracés géolocalisés)",
+    "page": "https://opendata.gouv.tg/datasets/donnees-ouvertes-sur-les-routes-routes-classees-au-togo",
+    "producteur": "Ministère des Transports",
+    "fichiers": [
+      {
+        "role": "données",
+        "format": "csv",
+        "fichier": "routes_classees.csv",
+        "url": "https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-routes-routes-classees-au-togo/20241218-203810/file-routes-routes-classees-18-12-2024-20-38-02.csv"
+      },
+      {
+        "role": "dictionnaire de champs",
+        "format": "csv",
+        "fichier": null,
+        "url": "https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-routes-routes-classees-au-togo/20241218-150814/routes-routes-classees.csv"
+      }
+    ]
+  },
+  {
+    "nom": "Agents mobile money",
+    "page": "https://opendata.gouv.tg/datasets/donnees-ouvertes-sur-les-agents-mobile-money-au-togo",
+    "producteur": "Ministère de l'Éfficacité du Service Public et de la Transformation Numérique",
+    "fichiers": [
+      {
+        "role": "données",
+        "format": "csv",
+        "fichier": "agents_mobile_money.csv",
+        "url": "https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-agents-mobile-money-au-togo/20241219-165539/file-agents-mobile-money-19-12-2024-16-55-32.csv"
+      },
+      {
+        "role": "dictionnaire de champs",
+        "format": "csv",
+        "fichier": null,
+        "url": "https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-agents-mobile-money-au-togo/20241217-162510/agents-mobile-money.csv"
+      }
+    ]
+  },
+  {
+    "nom": "Inventaire des sous-projets du Projet COSO",
+    "page": "https://opendata.gouv.tg/datasets/inventaire-des-sous-projets-dinfrastructure-realises-dans-le-cadre-du-projet-coso-au-togo",
+    "producteur": " Ministère du Développement à la Base, de l'Inclusion Financière, de la Jeunesse et de l'Emploi des Jeunes",
+    "fichiers": [
+      {
+        "role": "données",
+        "format": "geojson",
+        "fichier": "coso_inventaire.geojson",
+        "url": "https://opendata.gouv.tg/s/resources/inventaire-des-sous-projets-dinfrastructure-realises-dans-le-cadre-du-projet-coso-au-togo/20260603-175704/subprojects-opendata.geojson"
+      },
+      {
+        "role": "dictionnaire de champs",
+        "format": "csv",
+        "fichier": null,
+        "url": "https://opendata.gouv.tg/s/resources/inventaire-des-sous-projets-dinfrastructure-realises-dans-le-cadre-du-projet-coso-au-togo/20260603-175702/subprojects-opendata.csv"
+      },
+      {
+        "role": "données",
+        "format": "csv",
+        "fichier": "coso_inventaire.csv",
+        "url": "https://opendata.gouv.tg/s/resources/inventaire-des-sous-projets-dinfrastructure-realises-dans-le-cadre-du-projet-coso-au-togo/20260603-175702/subprojects-opendata.csv"
+      }
+    ],
+    "usage": "813 ouvrages géolocalisés et chiffrés — confrontation de la dépense publique au besoin mesuré.",
+    "jeux_sectoriels_lies": [
+      {
+        "slug": "projet-coso-infrastructures-de-sport-et-loisir-au-togo",
+        "page": "https://opendata.gouv.tg/datasets/projet-coso-infrastructures-de-sport-et-loisir-au-togo",
+        "ressources": [
+          "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-de-sport-et-loisir-au-togo/20260605-153557/projet-coso-sport-loisir.geojson",
+          "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-de-sport-et-loisir-au-togo/20260604-111552/subprojects-sector-sport-loisir.csv"
+        ]
+      },
+      {
+        "slug": "projet-coso-infrastructures-du-secteur-de-la-sante-au-togo",
+        "page": "https://opendata.gouv.tg/datasets/projet-coso-infrastructures-du-secteur-de-la-sante-au-togo",
+        "ressources": [
+          "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-du-secteur-de-la-sante-au-togo/20260605-153809/projet-coso-sante.geojson",
+          "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-du-secteur-de-la-sante-au-togo/20260604-111355/subprojects-sector-sante.csv"
+        ]
+      },
+      {
+        "slug": "projet-coso-ouvrages-de-desenclavement-et-pistes-rurales-au-togo",
+        "page": "https://opendata.gouv.tg/datasets/projet-coso-ouvrages-de-desenclavement-et-pistes-rurales-au-togo",
+        "ressources": [
+          "https://opendata.gouv.tg/s/resources/projet-coso-ouvrages-de-desenclavement-et-pistes-rurales-au-togo/20260605-153846/projet-coso-pistes.geojson",
+          "https://opendata.gouv.tg/s/resources/projet-coso-ouvrages-de-desenclavement-et-pistes-rurales-au-togo/20260604-111124/subprojects-sector-pistes.csv"
+        ]
+      },
+      {
+        "slug": "projet-coso-actions-du-secteur-de-lenvironnement-au-togo",
+        "page": "https://opendata.gouv.tg/datasets/projet-coso-actions-du-secteur-de-lenvironnement-au-togo",
+        "ressources": [
+          "https://opendata.gouv.tg/s/resources/projet-coso-actions-du-secteur-de-lenvironnement-au-togo/20260605-153944/projet-coso-environnement.geojson",
+          "https://opendata.gouv.tg/s/resources/projet-coso-actions-du-secteur-de-lenvironnement-au-togo/20260604-110828/subprojects-sector-environnement.csv"
+        ]
+      },
+      {
+        "slug": "projet-coso-infrastructures-du-secteur-de-lenergie-au-togo",
+        "page": "https://opendata.gouv.tg/datasets/projet-coso-infrastructures-du-secteur-de-lenergie-au-togo",
+        "ressources": [
+          "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-du-secteur-de-lenergie-au-togo/20260605-154059/projet-coso-energie.geojson",
+          "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-du-secteur-de-lenergie-au-togo/20260604-110559/subprojects-sector-energie.csv"
+        ]
+      },
+      {
+        "slug": "projet-coso-infrastructures-du-secteur-de-leducation-au-togo",
+        "page": "https://opendata.gouv.tg/datasets/projet-coso-infrastructures-du-secteur-de-leducation-au-togo",
+        "ressources": [
+          "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-du-secteur-de-leducation-au-togo/20260605-154127/projet-coso-education.geojson",
+          "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-du-secteur-de-leducation-au-togo/20260604-110353/subprojects-sector-education.csv"
+        ]
+      },
+      {
+        "slug": "projet-coso-infrastructures-dalimentation-en-eau-potable-et-hydraulique-au-togo",
+        "page": "https://opendata.gouv.tg/datasets/projet-coso-infrastructures-dalimentation-en-eau-potable-et-hydraulique-au-togo",
+        "ressources": [
+          "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-dalimentation-en-eau-potable-et-hydraulique-au-togo/20260605-154455/projet-coso-eau.geojson",
+          "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-dalimentation-en-eau-potable-et-hydraulique-au-togo/20260604-110045/subprojects-sector-eau-hydraulique.csv"
+        ]
+      },
+      {
+        "slug": "projet-coso-infrastructures-de-developpement-a-la-base-et-cohesion-sociale-au-togo",
+        "page": "https://opendata.gouv.tg/datasets/projet-coso-infrastructures-de-developpement-a-la-base-et-cohesion-sociale-au-togo",
+        "ressources": [
+          "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-de-developpement-a-la-base-et-cohesion-sociale-au-togo/20260605-154522/projet-coso-developpement-base.geojson",
+          "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-de-developpement-a-la-base-et-cohesion-sociale-au-togo/20260604-105535/subprojects-sector-developpement-a-la-base.csv"
+        ]
+      },
+      {
+        "slug": "projet-coso-infrastructures-du-secteur-du-commerce-et-des-marches-au-togo",
+        "page": "https://opendata.gouv.tg/datasets/projet-coso-infrastructures-du-secteur-du-commerce-et-des-marches-au-togo",
+        "ressources": [
+          "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-du-secteur-du-commerce-et-des-marches-au-togo/20260605-154543/projet-coso-commerce.geojson",
+          "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-du-secteur-du-commerce-et-des-marches-au-togo/20260604-104919/subprojects-sector-commerce.csv"
+        ]
+      },
+      {
+        "slug": "projet-coso-infrastructures-du-secteur-de-lassainissement-au-togo",
+        "page": "https://opendata.gouv.tg/datasets/projet-coso-infrastructures-du-secteur-de-lassainissement-au-togo",
+        "ressources": [
+          "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-du-secteur-de-lassainissement-au-togo/20260605-154612/projet-coso-assainissement.geojson",
+          "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-du-secteur-de-lassainissement-au-togo/20260604-104613/subprojects-sector-assainissement.csv"
+        ]
+      },
+      {
+        "slug": "projet-coso-infrastructures-du-secteur-de-lagriculture-au-togo",
+        "page": "https://opendata.gouv.tg/datasets/projet-coso-infrastructures-du-secteur-de-lagriculture-au-togo",
+        "ressources": [
+          "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-du-secteur-de-lagriculture-au-togo/20260605-154639/projet-coso-agriculture.geojson",
+          "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-du-secteur-de-lagriculture-au-togo/20260604-104219/subprojects-sector-agriculture.csv"
+        ]
+      }
+    ]
+  },
+  {
+    "nom": "Établissements de finance au Togo",
+    "page": "https://opendata.gouv.tg/datasets/donnees-ouvertes-sur-les-etablissements-de-finance-au-togo",
+    "producteur": "Ministère de l'Économie et des Finances",
+    "usage": "Banques, IMF et bureaux de change géolocalisés — dimension « services financiers ».",
+    "fichiers": [
+      {
+        "role": "données",
+        "format": "csv",
+        "fichier": "etablissements_finance.csv",
+        "url": "https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-etablissements-de-finance-au-togo/20250107-113010/file-finance-etablissements-07-01-2025-11-07-50.csv"
+      },
+      {
+        "role": "dictionnaire de champs",
+        "format": "csv",
+        "fichier": null,
+        "url": "https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-etablissements-de-finance-au-togo/20250107-113744/metadonnee-finance-etablissements.csv"
+      }
+    ]
+  }
+]

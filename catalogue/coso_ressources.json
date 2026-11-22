@@ -1,0 +1,146 @@
+{
+ "projet-coso-infrastructures-de-sport-et-loisir-au-togo": [
+  {
+   "format": "geojson",
+   "titre": "projet-coso-sport-loisir.geojson",
+   "url": "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-de-sport-et-loisir-au-togo/20260605-153557/projet-coso-sport-loisir.geojson"
+  },
+  {
+   "format": "csv",
+   "titre": "subprojects-sector-sport-loisir.csv",
+   "url": "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-de-sport-et-loisir-au-togo/20260604-111552/subprojects-sector-sport-loisir.csv"
+  }
+ ],
+ "projet-coso-infrastructures-du-secteur-de-la-sante-au-togo": [
+  {
+   "format": "geojson",
+   "titre": "projet-coso-sante.geojson",
+   "url": "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-du-secteur-de-la-sante-au-togo/20260605-153809/projet-coso-sante.geojson"
+  },
+  {
+   "format": "csv",
+   "titre": "subprojects-sector-sante.csv",
+   "url": "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-du-secteur-de-la-sante-au-togo/20260604-111355/subprojects-sector-sante.csv"
+  }
+ ],
+ "projet-coso-ouvrages-de-desenclavement-et-pistes-rurales-au-togo": [
+  {
+   "format": "geojson",
+   "titre": "projet-coso-pistes.geojson",
+   "url": "https://opendata.gouv.tg/s/resources/projet-coso-ouvrages-de-desenclavement-et-pistes-rurales-au-togo/20260605-153846/projet-coso-pistes.geojson"
+  },
+  {
+   "format": "csv",
+   "titre": "subprojects-sector-pistes.csv",
+   "url": "https://opendata.gouv.tg/s/resources/projet-coso-ouvrages-de-desenclavement-et-pistes-rurales-au-togo/20260604-111124/subprojects-sector-pistes.csv"
+  }
+ ],
+ "projet-coso-actions-du-secteur-de-lenvironnement-au-togo": [
+  {
+   "format": "geojson",
+   "titre": "projet-coso-environnement.geojson",
+   "url": "https://opendata.gouv.tg/s/resources/projet-coso-actions-du-secteur-de-lenvironnement-au-togo/20260605-153944/projet-coso-environnement.geojson"
+  },
+  {
+   "format": "csv",
+   "titre": "subprojects-sector-environnement.csv",
+   "url": "https://opendata.gouv.tg/s/resources/projet-coso-actions-du-secteur-de-lenvironnement-au-togo/20260604-110828/subprojects-sector-environnement.csv"
+  }
+ ],
+ "projet-coso-infrastructures-du-secteur-de-lenergie-au-togo": [
+  {
+   "format": "geojson",
+   "titre": "projet-coso-energie.geojson",
+   "url": "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-du-secteur-de-lenergie-au-togo/20260605-154059/projet-coso-energie.geojson"
+  },
+  {
+   "format": "csv",
+   "titre": "subprojects-sector-energie.csv",
+   "url": "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-du-secteur-de-lenergie-au-togo/20260604-110559/subprojects-sector-energie.csv"
+  }
+ ],
+ "projet-coso-infrastructures-du-secteur-de-leducation-au-togo": [
+  {
+   "format": "geojson",
+   "titre": "projet-coso-education.geojson",
+   "url": "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-du-secteur-de-leducation-au-togo/20260605-154127/projet-coso-education.geojson"
+  },
+  {
+   "format": "csv",
+   "titre": "subprojects-sector-education.csv",
+   "url": "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-du-secteur-de-leducation-au-togo/20260604-110353/subprojects-sector-education.csv"
+  }
+ ],
+ "projet-coso-infrastructures-dalimentation-en-eau-potable-et-hydraulique-au-togo": [
+  {
+   "format": "geojson",
+   "titre": "projet-coso-eau.geojson",
+   "url": "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-dalimentation-en-eau-potable-et-hydraulique-au-togo/20260605-154455/projet-coso-eau.geojson"
+  },
+  {
+   "format": "csv",
+   "titre": "subprojects-sector-eau-hydraulique.csv",
+   "url": "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-dalimentation-en-eau-potable-et-hydraulique-au-togo/20260604-110045/subprojects-sector-eau-hydraulique.csv"
+  }
+ ],
+ "projet-coso-infrastructures-de-developpement-a-la-base-et-cohesion-sociale-au-togo": [
+  {
+   "format": "geojson",
+   "titre": "projet-coso-developpement-base.geojson",
+   "url": "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-de-developpement-a-la-base-et-cohesion-sociale-au-togo/20260605-154522/projet-coso-developpement-base.geojson"
+  },
+  {
+   "format": "csv",
+   "titre": "subprojects-sector-developpement-a-la-base.csv",
+   "url": "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-de-developpement-a-la-base-et-cohesion-sociale-au-togo/20260604-105535/subprojects-sector-developpement-a-la-base.csv"
+  }
+ ],
+ "projet-coso-infrastructures-du-secteur-du-commerce-et-des-marches-au-togo": [
+  {
+   "format": "geojson",
+   "titre": "projet-coso-commerce.geojson",
+   "url": "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-du-secteur-du-commerce-et-des-marches-au-togo/20260605-154543/projet-coso-commerce.geojson"
+  },
+  {
+   "format": "csv",
+   "titre": "subprojects-sector-commerce.csv",
+   "url": "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-du-secteur-du-commerce-et-des-marches-au-togo/20260604-104919/subprojects-sector-commerce.csv"
+  }
+ ],
+ "projet-coso-infrastructures-du-secteur-de-lassainissement-au-togo": [
+  {
+   "format": "geojson",
+   "titre": "projet-coso-assainissement.geojson",
+   "url": "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-du-secteur-de-lassainissement-au-togo/20260605-154612/projet-coso-assainissement.geojson"
+  },
+  {
+   "format": "csv",
+   "titre": "subprojects-sector-assainissement.csv",
+   "url": "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-du-secteur-de-lassainissement-au-togo/20260604-104613/subprojects-sector-assainissement.csv"
+  }
+ ],
+ "projet-coso-infrastructures-du-secteur-de-lagriculture-au-togo": [
+  {
+   "format": "geojson",
+   "titre": "projet-coso-agriculture.geojson",
+   "url": "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-du-secteur-de-lagriculture-au-togo/20260605-154639/projet-coso-agriculture.geojson"
+  },
+  {
+   "format": "csv",
+   "titre": "subprojects-sector-agriculture.csv",
+   "url": "https://opendata.gouv.tg/s/resources/projet-coso-infrastructures-du-secteur-de-lagriculture-au-togo/20260604-104219/subprojects-sector-agriculture.csv"
+  }
+ ],
+ "inventaire-des-sous-projets-dinfrastructure-realises-dans-le-cadre-du-projet-coso-au-togo": [
+  {
+   "format": "geojson",
+   "titre": "subprojects-opendata.geojson",
+   "url": "https://opendata.gouv.tg/s/resources/inventaire-des-sous-projets-dinfrastructure-realises-dans-le-cadre-du-projet-coso-au-togo/20260603-175704/subprojects-opendata.geojson"
+  },
+  {
+   "format": "csv",
+   "titre": "subprojects-opendata.csv",
+   "url": "https://opendata.gouv.tg/s/resources/inventaire-des-sous-projets-dinfrastructure-realises-dans-le-cadre-du-projet-coso-au-togo/20260603-175702/subprojects-opendata.csv"
+  }
+ ]
+}

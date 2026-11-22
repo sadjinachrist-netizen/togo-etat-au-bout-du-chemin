@@ -1,0 +1,18 @@
+name: keep-alive
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Reveiller le tableau de bord Streamlit
+        run: |
+          code=$(curl -sL -o /dev/null -w "%{http_code}" \
+            -c /tmp/ck -b /tmp/ck \
+            -A "Mozilla/5.0 (keep-alive bot)" \
+            --max-time 60 \
+            https://togo-etat-au-bout-du-chemin.streamlit.app/)
+          echo "HTTP $code"
+          case "$code" in 2*|3*) exit 0 ;; *) exit 1 ;; esac
