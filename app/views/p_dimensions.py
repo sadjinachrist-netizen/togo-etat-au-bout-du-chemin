@@ -30,10 +30,10 @@ with tabs[0]:
              sub="l'essentiel du parc rural", source="Inventaire PMH, Min. Eau"),
         dict(label="Postes d'eau autonomes", value=ui.fmt(k["pea"]), tone="slate",
              sub="réseaux de petite taille, souvent solaires", source="Inventaire PEA, Min. Eau"),
-        dict(label="Mieux dotée pour 10 000 hab.", value=f"{k['eau_max']:.1f}",
+        dict(label="Mieux dotée pour 10 000 hab.", value=ui.fmt(k['eau_max'], 1),
              sub="Assoli (Kara) — un point d'eau pour 141 habitants",
              source="calcul de l'auteur"),
-        dict(label="Moins dotée pour 10 000 hab.", value=f"{k['eau_min']:.2f}", tone="red",
+        dict(label="Moins dotée pour 10 000 hab.", value=ui.fmt(k['eau_min'], 2), tone="red",
              sub="Golfe — mais le Golfe est raccordé au réseau TdE : le chiffre mesure "
                  "l'hydraulique villageoise, pas l'accès à l'eau",
              source="calcul de l'auteur"),
@@ -205,7 +205,7 @@ with tabs[4]:
         ui.source("calcul de l'auteur — la taille des bulles est la population 2022")
     r_ef = pref_all.taux_electricite.corr(pref_all.eau_10k)
     ui.note(
-        f"<b>Électricité et eau varient en sens inverse</b> (corrélation {r_ef:.2f}). Ce n'est pas "
+        f"<b>Électricité et eau varient en sens inverse</b> (corrélation {ui.fmt(r_ef, 2)}). Ce n'est pas "
         f"un paradoxe : l'hydraulique villageoise se déploie précisément là où le réseau électrique "
         f"n'arrive pas, et le Grand Lomé est électrifié sans avoir besoin de pompes. Un indice "
         f"composite a donc un sens ici — il ne redit pas quatre fois la même chose. Et une préfecture "

@@ -114,10 +114,10 @@ LIM = [
      "rogner reviendrait à modifier la source.",
      "Qualité de la source"),
     ("Un point d'eau recensé n'est pas un point d'eau qui coule",
-     f"Les inventaires signalent {k['points_services'] - k['points_actifs']} ouvrages non "
-     "fonctionnels, mais la date du dernier contrôle n'est pas publiée. L'indice mesure donc une "
-     "<b>couverture théorique</b>. Une préfecture au parc ancien et mal entretenu apparaît mieux "
-     "servie qu'elle ne l'est.",
+     "Les inventaires PEA et PMH recensent les ouvrages, mais ne publient ni champ d'état de "
+     "service ni date de dernier contrôle — à la différence des annuaires d'agences, qui "
+     "signalent 97 points fermés. L'indice mesure donc une <b>couverture théorique</b> : une "
+     "préfecture au parc ancien et mal entretenu y apparaît mieux servie qu'elle ne l'est.",
      "Dimension eau"),
     ("Le réseau mesuré est le réseau classé",
      "Les pistes rurales, qui portent l'essentiel du dernier kilomètre, ne figurent dans aucun jeu "

@@ -232,7 +232,7 @@ const tbl = (s, rows, x, y, w, colW) => s.addTable(rows, {
   s.addText("Les cinq limites, énoncées dans le tableau de bord lui-même", { x: 0.5, y: 3.35, w: 9, h: 0.3, fontFace: BF, fontSize: 11.5, bold: true, color: C.dark, isTextBox: true, margin: 0 });
   const lims = [["Électricité sur un découpage périmé", "six zones commerciales regroupent deux préfectures : cinq valeurs sont héritées, ce qui ne peut que surestimer leur accès"],
     ["Des taux au-dessus de 100 %", "abonnés au numérateur, ménages estimés au dénominateur ; conservés tels que publiés plutôt que rognés"],
-    ["Un point d'eau recensé n'est pas un point d'eau qui coule", "97 ouvrages signalés hors service, sans date de dernier contrôle : l'indice mesure une couverture théorique"],
+    ["Un point d'eau recensé n'est pas un point d'eau qui coule", "les inventaires PEA et PMH ne publient ni état de service ni date de contrôle : l'indice mesure une couverture théorique"],
     ["Le réseau mesuré est le réseau classé", "les pistes rurales, qui portent le dernier kilomètre, ne figurent dans aucun jeu ouvert géoréférencé"],
     ["L'indice est relatif et non pondéré", "100 = la mieux dotée des 39, pas « bien dotée » ; les quatre scores restent visibles séparément"]];
   lims.forEach(([h, b], i) => {

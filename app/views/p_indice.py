@@ -44,7 +44,7 @@ ui.kpis([
     dict(label="Moins bien servie des 39", value=k["indice_min_pref"], tone="red",
          sub=f"indice {k['indice_min']} — 3,7 % d'électricité, 0,15 m de route / hab.",
          source="calcul de l'auteur"),
-    dict(label="Écart entre les deux", value=f"{k['ecart_indice']:.1f} pts", tone="slate",
+    dict(label="Écart entre les deux", value=ui.fmt(k['ecart_indice'], 1, " pts"), tone="slate",
          sub="sur une échelle de 100 — l'écart interne au pays est plus large que la moitié de l'échelle",
          source="calcul de l'auteur"),
     dict(label="Dimensions mesurées", value="4", tone="gold",
@@ -143,7 +143,7 @@ if viz:
                                     angularaxis=dict(tickfont_size=11)))
         ui.chart(fg, h=370)
     with g2:
-        ui.kpis([dict(label="Indice d'accès", value=f"{r.indice_acces:.1f}",
+        ui.kpis([dict(label="Indice d'accès", value=ui.fmt(r.indice_acces, 1),
                       sub=f"rang {int(r.rang_acces)} sur 39 · région {r.region}",
                       tone="red" if r.rang_acces > 29 else "",
                       source="calcul de l'auteur"),
@@ -153,9 +153,9 @@ if viz:
         st.markdown("<div style='height:.7rem'></div>", unsafe_allow_html=True)
         det = pd.DataFrame({
             "Dimension": list(D.DIMS),
-            "Valeur brute": [f"{r[v[0]]:.2f} {v[2].split(' / ')[0] if '/' in v[2] else v[2]}"
+            "Valeur brute": [f"{ui.fmt(r[v[0]], 2)} {v[2].split(' / ')[0] if '/' in v[2] else v[2]}"
                              for v in D.DIMS.values()],
-            "Score /100": [f"{r[v[1]]:.1f}" for v in D.DIMS.values()],
+            "Score /100": [ui.fmt(r[v[1]], 1) for v in D.DIMS.values()],
             "Rang /39": [int((pref_all[v[0]] > r[v[0]]).sum() + 1) for v in D.DIMS.values()],
         })
         st.dataframe(det, hide_index=True, use_container_width=True)

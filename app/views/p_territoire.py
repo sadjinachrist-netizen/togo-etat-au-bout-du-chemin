@@ -23,7 +23,7 @@ CAT_COLORS = {"Eau": ui.DIM_COLORS["Eau"], "Électricité": ui.DIM_COLORS["Élec
 ui.section("01", "Ce qu'il y a dans la base")
 ui.kpis([
     dict(label="Points géolocalisés", value=ui.fmt(k["points_services"]),
-         sub=f"dont {ui.fmt(k['points_actifs'])} déclarés en service",
+         sub=f"dont {ui.fmt(k['points_actifs'])} sans signalement de fermeture",
          source="7 jeux ouverts croisés, opendata.gouv.tg"),
     dict(label="Points d'eau", value=ui.fmt(k["points_eau"]), tone="slate",
          sub=f"{ui.fmt(k['pmh'])} pompes manuelles et {ui.fmt(k['pea'])} postes autonomes",
@@ -31,9 +31,10 @@ ui.kpis([
     dict(label="Points financiers", value=ui.fmt(k["mobile_money"] + k["finance"]),
          sub=f"{ui.fmt(k['mobile_money'])} agents mobile money, {k['finance']} établissements",
          source="Recensement MM + répertoire financier"),
-    dict(label="Ouvrages non fonctionnels signalés", value=f"{k['points_services'] - k['points_actifs']}",
-         tone="red", sub="l'état de service n'est renseigné que pour une partie du parc",
-         source="champ « état » des inventaires"),
+    dict(label="Points fermés signalés", value=f"{k['points_services'] - k['points_actifs']}",
+         tone="red", sub="78 établissements financiers, 12 agences TdE, 7 agences CEET — "
+                         "les inventaires de points d'eau, eux, ne publient aucun état de service",
+         source="champ « statut » des annuaires d'agences"),
 ])
 
 # ------------------------------------------------------------------ 02

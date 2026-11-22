@@ -19,8 +19,8 @@ ui.hero(
     "public va bien là où ce manque est le plus grand.",
     [(f"{k['prefectures']}", "préfectures mesurées sur quatre dimensions d'accès", False),
      (f"{ui.fmt(k['points_services'])}", "points de service géolocalisés et recomptés", False),
-     (f"{k['ecart_indice']:.1f}", "points d'écart entre la préfecture la mieux et la moins bien servie", True),
-     (f"{k['coso_part_pop']} %", "de la population couverte par le grand projet d'investissement COSO", True)])
+     (ui.fmt(k["ecart_indice"], 1), "points d'écart entre la préfecture la mieux et la moins bien servie", True),
+     (ui.fmt(k["coso_part_pop"], 1, " %"), "de la population couverte par le grand projet d'investissement COSO", True)])
 
 # ------------------------------------------------------------------ 01
 ui.section("01", "Ce que disent les données", "Quatre chiffres qui résument le problème.")
@@ -28,15 +28,15 @@ b10 = pref_all.nsmallest(10, "indice_acces")
 ui.kpis([
     dict(label="L'écart d'accès à l'eau entre préfectures",
          value=f"×{k['eau_ratio']:.0f}", tone="slate",
-         sub=f"{k['eau_max']:.0f} points d'eau pour 10 000 habitants à Assoli, {k['eau_min']:.1f} dans le Golfe",
+         sub=f"{ui.fmt(k['eau_max'])} points d'eau pour 10 000 habitants à Assoli, {ui.fmt(k['eau_min'], 2)} dans le Golfe",
          source="Inventaire PEA + PMH, Min. de l'Eau et de l'Hydraulique villageoise"),
     dict(label="Population des 10 préfectures les moins bien servies",
          value=ui.fmt(b10.pop_2022.sum()), tone="red",
-         sub=f"soit {b10.pop_2022.sum() / k['pop_2022'] * 100:.1f} % des Togolais",
+         sub=f"soit {ui.fmt(b10.pop_2022.sum() / k['pop_2022'] * 100, 1)} % des Togolais",
          source="RGPH-5 2022, INSEED"),
     dict(label="Taux d'accès à l'électricité à Akébou",
          value="3,7 %", tone="red",
-         sub=f"contre {k['taux_elec_national']} % au niveau national en {k['annee_elec']}",
+         sub=f"contre {ui.fmt(k['taux_elec_national'], 1)} % au niveau national en {k['annee_elec']}",
          source=f"Abonnés basse tension CEET {k['annee_elec']}"),
     dict(label="Investi par COSO dans 9 préfectures du Nord",
          value="14,3 Md", tone="gold",
@@ -71,7 +71,7 @@ if len(cos):
         hovertemplate="<b>%{y}</b> — zone COSO<extra></extra>"))
 moy = pref_all.indice_acces.mean()
 fig.add_vline(x=moy, line=dict(color=ui.C["muted"], width=1, dash="dot"),
-              annotation_text=f"moyenne nationale {moy:.1f}", annotation_font_size=10)
+              annotation_text=f"moyenne nationale {ui.fmt(moy, 1)}", annotation_font_size=10)
 fig.update_layout(xaxis_title="Indice d'accès (0 – 100)", yaxis_title=None,
                   yaxis=dict(showgrid=False, categoryorder="array",
                              categoryarray=list(d.prefecture)),
@@ -81,7 +81,7 @@ ui.source("calcul de l'auteur à partir de 8 jeux ouverts d'opendata.gouv.tg —
 
 ui.note(
     f"<b>Le manque n'est pas une affaire de taille.</b> La corrélation entre l'indice d'accès et la "
-    f"population d'une préfecture est de {pref_all.indice_acces.corr(pref_all.pop_2022):.2f} : autant "
+    f"population d'une préfecture est de {ui.fmt(pref_all.indice_acces.corr(pref_all.pop_2022), 2)} : autant "
     f"dire nulle. Ce ne sont donc pas les petites préfectures qui sont mal servies, ni les grandes qui "
     f"le sont bien. C'est un problème de <i>placement</i>, pas de densité — et un problème de placement "
     f"se corrige.")
@@ -127,8 +127,8 @@ st.markdown("""
 
 ui.note(
     "<b>Ce que ce tableau de bord ne dit pas.</b> Un point d'eau recensé n'est pas un point d'eau "
-    "qui coule : la base signale 97 ouvrages non fonctionnels, mais rien ne garantit que l'état des "
-    "autres ait été revu récemment. L'électricité n'est publiée que par zone commerciale CEET, pas "
+    "qui coule : les inventaires PEA et PMH ne publient aucun champ d'état de service, et aucune "
+    "date de dernier contrôle. L'électricité n'est publiée que par zone commerciale CEET, pas "
     "par préfecture. Et le réseau mesuré ici est le réseau <i>classé</i> : les pistes rurales, qui "
     "font l'essentiel du dernier kilomètre, n'y figurent pas. Les cinq limites sont détaillées en "
     "annexe — elles ne cassent aucun des trois constats ci-dessus, mais elles en fixent la portée.",

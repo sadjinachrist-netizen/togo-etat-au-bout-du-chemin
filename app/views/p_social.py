@@ -42,16 +42,16 @@ gini, a_gini = _der("Indice GINI")
 seuil, a_seuil = _der("Population sous le seuil")
 c1, c2 = st.columns([1, 1.3])
 with c1:
-    ui.kpis([dict(label=f"Taux de pauvreté {a0}", value=f"{v0:.1f} %", tone="red",
+    ui.kpis([dict(label=f"Taux de pauvreté {a0}", value=ui.fmt(v0, 1, " %"), tone="red",
                   sub="première année publiée de la série",
                   source="QUIBB / EHCVM, INSEED")])
     st.markdown("<div style='height:.6rem'></div>", unsafe_allow_html=True)
-    ui.kpis([dict(label=f"Taux de pauvreté {a1}", value=f"{v1:.1f} %", tone="",
+    ui.kpis([dict(label=f"Taux de pauvreté {a1}", value=ui.fmt(v1, 1, " %"), tone="",
                   sub=f"{v1 - v0:+.1f} points en {a1 - a0} ans",
                   source="QUIBB / EHCVM, INSEED")])
     st.markdown("<div style='height:.6rem'></div>", unsafe_allow_html=True)
-    ui.kpis([dict(label=f"Indice de Gini {a_gini}", value=f"{gini:.2f}", tone="gold",
-                  sub=f"{seuil:.1f} % de la population sous le seuil international de 2 $/jour",
+    ui.kpis([dict(label=f"Indice de Gini {a_gini}", value=ui.fmt(gini, 2), tone="gold",
+                  sub=f"{ui.fmt(seuil, 1)} % de la population sous le seuil international de 2 $/jour",
                   source="INSEED, via opendata.gouv.tg")])
 with c2:
     fig = px.line(pv, x="annee", y="value", markers=True,
@@ -65,7 +65,7 @@ pop0, pop1 = 6.19e6, 8.10e6
 n0, n1 = pop0 * v0 / 100, pop1 * v1 / 100
 ui.note(
     f"<b>Le taux recule, le nombre de personnes pauvres beaucoup moins.</b> La pauvreté passe de "
-    f"{v0:.1f} % en {a0} à {v1:.1f} % en {a1}. Mais sur la même période la population togolaise "
+    f"{ui.fmt(v0, 1)} % en {a0} à {ui.fmt(v1, 1)} % en {a1}. Mais sur la même période la population togolaise "
     f"a augmenté de 30,8 % : rapporté aux effectifs, cela fait passer d'environ "
     f"{ui.fmt(n0 / 1e6, 2)} million de personnes pauvres à {ui.fmt(n1 / 1e6, 2)} million — "
     f"un recul bien plus modeste que celui du pourcentage. Aucune ventilation régionale n'est "
@@ -101,14 +101,15 @@ with c2:
     ui.source("INSEED × indice calculé par l'auteur — 6 points seulement")
 
 rs = m.indice_acces.corr(m.value) if len(m) > 2 else float("nan")
+rs_txt = ("+" if rs >= 0 else "") + ui.fmt(rs, 2)
 ui.note(
     f"<b>Les Savanes sont dernières sur les deux tableaux.</b> Avec un indice d'accès régional de "
-    f"{reg[reg.region == 'Savanes'].indice_acces.iloc[0]:.1f} — le plus bas des six régions — les "
+    f"{ui.fmt(reg[reg.region == 'Savanes'].indice_acces.iloc[0], 1)} — le plus bas des six régions — les "
     f"Savanes affichent aussi le taux net de scolarisation le plus faible "
-    f"({last[last.region == 'Savanes'].value.iloc[0]:.1f} % contre "
-    f"{tg[tg.annee == tg.annee.max()].value.iloc[0]:.1f} % au niveau national). Mais il faut "
+    f"({ui.fmt(last[last.region == 'Savanes'].value.iloc[0], 1)} % contre "
+    f"{ui.fmt(tg[tg.annee == tg.annee.max()].value.iloc[0], 1)} % au niveau national). Mais il faut "
     f"s'arrêter là : sur les six régions, la corrélation entre indice d'accès et scolarisation vaut "
-    f"{rs:+.2f}, c'est-à-dire rien. Le Kara, région au meilleur indice d'accès, n'est pas la mieux "
+    f"{rs_txt}, c'est-à-dire rien. Le Kara, région au meilleur indice d'accès, n'est pas la mieux "
     f"scolarisée ; le Grand Lomé, moyen sur l'indice, l'est largement. <b>Il n'y a donc pas de "
     f"relation visible à ce niveau d'agrégation</b> — ce qui est en soi un résultat : il faudrait "
     f"la scolarisation publiée par préfecture pour tester sérieusement la question.")
@@ -170,7 +171,7 @@ ui.source("RGPH-5 2022 · INSEED · COSO/ANADEB · indices calculés par l'auteu
 
 ui.note(
     "<b>Le Kara est le contre-exemple utile.</b> C'est la région au meilleur indice d'accès "
-    f"({reg[reg.region == 'Kara'].indice_acces.iloc[0]:.1f}), portée par l'hydraulique villageoise "
+    f"({ui.fmt(reg[reg.region == 'Kara'].indice_acces.iloc[0], 1)}), portée par l'hydraulique villageoise "
     "— et pourtant elle n'est ni la plus riche ni la mieux scolarisée. L'accès physique à un "
     "service est une condition, pas un résultat : un forage posé ne garantit ni son entretien, ni "
     "son usage, ni l'école à côté. C'est la raison pour laquelle cet indice est présenté comme un "

@@ -97,11 +97,12 @@ section[data-testid="stSidebar"] label p {{ font-size: .78rem !important; color:
 section[data-testid="stSidebar"] [data-testid="stSidebarHeader"] {{
   display:flex; align-items:center; gap:.72rem; padding:1rem 1.1rem .35rem; flex-wrap:nowrap; }}
 section[data-testid="stSidebar"] [data-testid="stLogoSpacer"] {{ display:none; }}
+section[data-testid="stSidebar"] [data-testid="stSidebarHeader"] img[data-testid="stSidebarLogo"],
 section[data-testid="stSidebar"] [data-testid="stSidebarHeader"] img[data-testid="stLogo"] {{
   height:52px !important; width:auto !important; max-width:52px; margin:0;
   filter: drop-shadow(0 2px 7px rgba(0,0,0,.4)); }}
 section[data-testid="stSidebar"] [data-testid="stSidebarHeader"]::after {{
-  content:"L'État au\A bout du chemin"; white-space:pre;
+  content:"L'État au\\A bout du chemin"; white-space:pre;
   font-family:{SERIF}; font-size:1.1rem; font-weight:700; color:#fff; line-height:1.16;
   flex:1 1 auto; }}
 section[data-testid="stSidebar"] [data-testid="stSidebarHeader"]::after {{
@@ -111,9 +112,26 @@ section[data-testid="stSidebar"] [data-testid="stSidebarCollapseButton"] {{ flex
 .sb-foot {{ margin-top:1.3rem; padding-top:.9rem; border-top:1px solid rgba(255,255,255,.1);
   font-size:.7rem; color:rgba(232,242,237,.6); line-height:1.6; }}
 
-/* ---------- titres ---------- */
-h1 {{ font-family:{SERIF}; font-weight:900; letter-spacing:-.025em; color:{C['green_deep']}; font-size:2.25rem; line-height:1.1; }}
-h2,h3 {{ font-family:{SERIF}; font-weight:700; color:{C['green_deep']}; letter-spacing:-.01em; }}
+/* ---------- titres (surcharge des styles Streamlit) ---------- */
+.stApp h1, [data-testid="stHeadingWithActionElements"] h1, [data-testid="stMarkdownContainer"] h1 {{
+  font-family:{SERIF} !important; font-weight:900; letter-spacing:-.025em;
+  color:{C['green_deep']}; font-size:2.25rem; line-height:1.1; }}
+.stApp h2, .stApp h3, .stApp h4,
+[data-testid="stHeadingWithActionElements"] h2, [data-testid="stHeadingWithActionElements"] h3,
+[data-testid="stMarkdownContainer"] h2, [data-testid="stMarkdownContainer"] h3 {{
+  font-family:{SERIF} !important; font-weight:700; color:{C['green_deep']}; letter-spacing:-.01em; }}
+.stApp, .stApp p, .stApp li, .stApp td, .stApp th, .stApp label,
+[data-testid="stMarkdownContainer"] p, [data-testid="stMarkdownContainer"] li,
+[data-testid="stMarkdownContainer"] td, [data-testid="stMarkdownContainer"] th {{
+  font-family:{FONT}; }}
+/* ne jamais toucher aux polices d'icônes */
+.stApp [data-testid="stIconMaterial"], .stApp span[data-testid^="stIcon"],
+.stApp .material-symbols-rounded, .stApp [class*="material-symbols"] {{
+  font-family:'Material Symbols Rounded' !important; }}
+.stApp code, .stApp pre, .stApp pre * {{ font-family:'SFMono-Regular', Consolas, monospace; }}
+[data-testid="stMarkdownContainer"] table {{ font-size:.92rem; }}
+[data-testid="stMarkdownContainer"] th {{ background:{C['green_pale']}; color:{C['green_deep']};
+  font-weight:700; }}
 .kick {{ color:{C['muted']}; font-size:1.03rem; line-height:1.5; margin:-.3rem 0 1.4rem; max-width:62rem; }}
 
 /* ---------- bandeau d'ouverture ---------- */
